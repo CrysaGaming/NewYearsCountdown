@@ -1,0 +1,31 @@
+body {
+    background-color: transparent;
+    max-width: 900px;
+    margin: 3rem auto;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.3rem;
+}
+
+h1 {
+    color: #ff1900;
+    font-size: 4rem;
+    text-shadow: 2px 2px 7px white;
+}
+
+#countdown {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 1px 1px orangered;
+}
+
+#countdown > div {
+    display: inline-block;
+}
+
+#countdown > div > span {
+    color: #5e2ba1;
+    text-shadow: 1px 1px 1px white;
+}
+
