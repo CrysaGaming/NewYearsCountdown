@@ -15,7 +15,7 @@ function updateCountdown() {
     let seconds = Math.floor((diff % (1000 * 60)) / 1000)
 
     //daysContainer.innerHTML = days + "<span> Days</span>";
-    hoursContainer.innerHTML = hours + "<span> Hours</span>";
+    //hoursContainer.innerHTML = hours + "<span> Hours</span>";
     minutesContainer.innerHTML = minutes + "<span> Minutes</span>";
     secondsContainer.innerHTML = seconds + "<span> Seconds</span>";
 }
